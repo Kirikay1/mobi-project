@@ -1,3 +1,9 @@
+:root {
+    --text-color: #F1F1F1;
+    --element-color: #FF4C0D;
+    --button-color: #151515;
+    
+  }
 .container{
     max-width: 1440px;
     margin: auto;
