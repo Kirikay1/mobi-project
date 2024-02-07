@@ -2,9 +2,27 @@
     --text-color: #F1F1F1;
     --element-color: #FF4C0D;
     --button-color: #151515;
-    
-  }
-.container{
-    max-width: 1440px;
+}
+
+.container {
+    max-width: 1360px;
     margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {}
+
+.main {
+    background-color: #222222;
+    background-image: url(../image/fon.png);
+}
+
+.footer {
+    background-color: #222222;
+    background-image: url(../image/fon.png);
 }
