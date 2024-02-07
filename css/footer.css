@@ -1,0 +1,23 @@
+:root {
+    --text-color: #F1F1F1;
+    --element-color: #FF4C0D;
+    --button-color: #151515;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__container-text {
+    color: var(--text-color);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -1%;
+}
+
+.footer__container-contact {
+    text-align: right;
+}
