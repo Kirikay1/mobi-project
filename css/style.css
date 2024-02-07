@@ -25,4 +25,8 @@ body {}
 .footer {
     background-color: #222222;
     background-image: url(../image/fon.png);
-}
+
+  }
+ a {
+    text-decoration: none;
+  }
