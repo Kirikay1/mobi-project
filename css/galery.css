@@ -1,0 +1,49 @@
+@import "./galery.css";
+
+.galery {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.galery__title {
+    font-family: Roboto;
+font-size: 45px;
+font-weight: 500;
+line-height: 110%;
+    padding-bottom: 90px;
+    padding-top: 150px;
+    color: var(--text-color);
+    text-align: center;
+}
+.galery__photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    place-items: center;
+    padding-bottom: 50px;
+   
+}
+.galery__photos-item {
+    border-radius: 40px;
+    width: 550px;   
+    height: 420px;
+}
+.galery__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: var(--button-color);
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+.galery__button-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 40px;
+}
