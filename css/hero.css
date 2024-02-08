@@ -1,0 +1,61 @@
+@import "./style.css";
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+.hero__logo {
+    color: var(--text-color);
+display: flex;
+flex-direction: column;
+gap: 40px;
+justify-content: center ;
+align-items: start;
+padding: 100px 0;
+}
+.hero__logo-title {
+    font-family: Roboto;
+font-size: 80px;
+font-weight: 250;
+line-height: 100%;
+}
+.hero__logo-subtitle {
+    font-family: Roboto;
+font-size: 30px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+max-width: 1100px;
+}
+.hero__slider {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8)), 
+     url(../image/yellow_pricep.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    background-size: 100% auto;
+    width:100%;
+}
+
+.hero__slider-container{
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    padding: 140px ;
+    gap:40px
+    
+}
+.hero__slider-title {
+    font-family: Roboto;
+font-size: 45px;
+font-weight: 900;
+line-height: 110%;
+}
+.hero__slider-text {
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 700;
+line-height: 150%;
+letter-spacing: -1%;
+}
