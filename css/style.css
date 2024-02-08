@@ -23,12 +23,12 @@ html {
 body {}
 
 .main {
-    background-color: #222222;
+    background-color: #000000;
     background-image: url(../image/fon.png);
 }
 
 .footer {
-    background-color: #222222;
+    background-color: #000000;
     background-image: url(../image/fon.png);
 
 }
