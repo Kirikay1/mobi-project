@@ -1,0 +1,45 @@
+:root {
+    --text-color: #F1F1F1;
+    --element-color: #FF4C0D;
+    --button-color: #151515;
+}
+
+.about {
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.about__img {
+    background-image: url(../image/medovoz.png);
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+    width: 1440px;
+}
+
+.about__img-content {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.about__img-title {
+    color: var(--text-color);
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0%;
+}
+
+.about__img-text {
+    color: var(--text-color);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -1%;
+}
