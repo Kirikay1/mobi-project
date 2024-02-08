@@ -1,0 +1,72 @@
+:root {
+    --text-color: #F1F1F1;
+    --element-color: #FF4C0D;
+    --button-color: #151515;
+}
+
+.contacts {
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__title {
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0%;
+    color: var(--text-color);
+}
+
+.contacts__image {
+    background-image: url(../image/carta.png);
+    width: 766px;
+    height: 766px;
+}
+
+.contacts__list {
+    padding-top: 50px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+}
+
+.contacts__item {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+
+.contacts__item-link {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0%;
+    color: var(--text-color);
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    padding-top: 65px;
+    width: 160px;
+    text-align: center;
+}
+
+.social__list {
+    display: flex;
+    column-gap: 20px;
+}
+
+.social__text {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0%;
+    color: var(--text-color);
+    padding-top: 10px;
+}
