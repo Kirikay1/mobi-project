@@ -37,6 +37,9 @@ font-weight: 700;
 line-height: 150%;
 transition: 0.3s;
 }
+.burger__button{
+    display: none;
+}
 
 button:hover{
     background-color: var( --element-color  );
