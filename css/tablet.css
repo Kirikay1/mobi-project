@@ -1,0 +1,122 @@
+@media (  width <= 1200px ) {
+    .constructor__button{
+        display: none;
+    }
+.burger__button {
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+    width: 54px;
+    height: 54px;       
+}
+.burger__button-span {
+    display: block;
+    background-color: black;
+    width: 18px;
+    height: 2px;       
+}
+.header__container-nav{
+    display: none;
+}
+.hero__logo-subtitle{
+    font-size: 25px;
+}
+.hero__slider{
+    height: 420px;
+}
+.hero__slider-title{
+    font-size: 30px;
+}
+.hero__slider-text{
+    font-size: 14px;
+}
+.hero__slider-container{
+    gap: 20px;
+    padding-left: 50px;
+    padding-top:200px;
+    padding-bottom:80px;
+}
+.services{
+    padding-top: 70px;
+}
+.services__title{
+   
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+.services__card-img {
+    width: 560px;
+    height: 350px;
+}
+.galery__photos-item{
+height: 350px;
+}
+.galery__photos{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+.galery__title{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: start;
+    font-size: 30px;
+}
+.about__img{
+    height: 420px;  
+}
+.about__img-title{
+    font-size: 30px;
+}
+.about__img-text{
+    font-size: 14px;
+}
+.about{
+    padding-top: 70px;
+}
+.feedback{
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feedback-title{
+font-size: 30px;
+padding-bottom: 50px;
+}
+.feedback__arrow-container{
+    display: none;
+}
+.contacts {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.contacts__map{
+    width: 550px;
+height: 350px;
+}
+.map-title  {
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0%;
+    color: var(--text-color);
+    display: block;
+text-align: center;
+padding-bottom: 30px;
+}
+.contacts__title{
+    display: none;
+}
+
+
+}

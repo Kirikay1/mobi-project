@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./css/hero.css">
     <link rel="stylesheet" href="./css/services.css">
     <link rel="stylesheet" href="./css/galery.css">
+    <link rel="stylesheet" href="./css/tablet.css">
     <link rel="icon" href="">
 </head>
 
@@ -25,19 +26,25 @@
             <img src="./image/logo.svg" alt="Логотип" class="header__container-logo">
             <nav class="header__container-nav">
                 <ul class="header__nav-items">
-                    <li class="header-nav-item"><a href="#" class="header__link">О компании</a></li>
-                    <li class="header-nav-item"><a href="#" class="header__link">Услуги</a></li>
-                    <li class="header-nav-item"><a href="#" class="header__link">Товары</a></li>
-                    <li class="header-nav-item"><a href="#" class="header__link">Отзывы</a></li>
-                    <li class="header-nav-item"><a href="#" class="header__link">Контакты</a></li>
+                    <li class="header-nav-item"><a href="#hero" class="header__link">О компании</a></li>
+                    <li class="header-nav-item"><a href="#servises" class="header__link">Услуги</a></li>
+                    <li class="header-nav-item"><a href="#galery" class="header__link">Галерея</a></li>
+                    <li class="header-nav-item"><a href="#feedback" class="header__link">Отзывы</a></li>
+                    <li class="header-nav-item"><a href="#contacts" class="header__link">Контакты</a></li>
                 </ul>
             </nav>
-            <button class="header__button">Конструктор</button>
+
+            <button class="constructor__button">Конструктор</button>
+            <button class="burger__button">
+                <span class="burger__button-span"></span>
+                <span class="burger__button-span"></span>
+                <span class="burger__button-span"></span>
+            </button>
         </div>
     </header>
     <main class="main">
         <div class="container">
-            <section class="hero">
+            <section class="hero" id="hero">
                 <div class="hero__logo">
                     <h1 class="hero__logo-title">МОБИ</h1>
                     <h3 class="hero__logo-subtitle">Наша компания как официальный производитель транспортных средств
@@ -51,11 +58,13 @@
                     </div>
                 </div>
             </section>
-            <section class="services">
+            <section class="services" id="servises">
                 <h1 class="services__title">Услуги компании</h1>
                 <div class="services__cards">
                     <div class="services__card">
-                        <img src="./image/VIN.jpg" alt="Вин маркировка" class="services__card-img">
+                        <div class="services__card-img">
+                            <img src="./image/VIN.jpg" alt="Вин маркировка">
+                        </div>
                         <h3 class="services__card-title">Дополнительная VIN маркировка ТС</h3>
                         <p class="services__card-text">Мы, являясь официальной организацией-изготовителем транспортных
                             средств, включенной в национальную часть Единого реестра уполномоченных органов
@@ -63,12 +72,16 @@
                             автопроизводителем в ЮФО, начавшая проводить работы по повторной маркировке ТС.</p>
                     </div>
                     <div class="services__card">
-                        <img src="./image/gray_pricep.jpeg" alt="Прицепы" class="services__card-img">
+                        <div class="services__card-img">
+                            <img src="./image/gray_pricep.jpeg" alt="Вин маркировка">
+                        </div>
                         <h3 class="services__card-title">Прицепы</h3>
                         <p class="services__card-text">Компания ООО "МОБИ" (г.Майкоп), Производит прицепы на заказ.</p>
                     </div>
                     <div class="services__card">
-                        <img src="./image/zapchasti.png" alt="Запчасти" class="services__card-img">
+                        <div class="services__card-img">
+                            <img src="./image/zapchasti.png" alt="Вин маркировка">
+                        </div>
                         <h3 class="services__card-title">Запчасти для прицепов</h3>
                         <p class="services__card-text">Мы, являясь официальной организацией-изготовителем транспортных
                             средств, включенной в национальную часть Единого реестра уполномоченных органов
@@ -77,7 +90,7 @@
                     </div>
                 </div>
             </section>
-            <section class="galery">
+            <section class="galery" id="galery">
                 <h1 class="galery__title">Наши прицепы</h1>
                 <div class="galery__photos">
                     <img src="./image/blue_pricep.jpg" alt="фото прицепов" class="galery__photos-item">
@@ -86,13 +99,14 @@
                     <img src="./image/blue_pricep4.jpg" alt="фото прицепов" class="galery__photos-item">
                 </div>
                 <button class="galery__button">
-                    <svg class="galery__button-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                        <path d="M26.29 20.29 18 28.59V0h-2v28.59l-8.29-8.3-1.42 1.42 10 10a1 1 0 0 0 1.41 0l10-10z"
+                    <svg class="galery__button-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                        <path fill=""
+                            d="M26.29 20.29 18 28.59V0h-2v28.59l-8.29-8.3-1.42 1.42 10 10a1 1 0 0 0 1.41 0l10-10z"
                             data-name="2-Arrow Down" />
                     </svg>
                 </button>
             </section>
-            <section class="about">
+            <section class="about" id="about">
                 <div class="about__img">
                     <div class="about__img-content">
                         <h1 class="about__img-title">О нас</h1>
@@ -100,7 +114,7 @@
                     </div>
                 </div>
             </section>
-            <section class="feedback">
+            <section class="feedback" id="feedback">
                 <h1 class="feedback__title">Отзывы</h1>
 
                 <div class="feedback__container">
@@ -146,10 +160,14 @@
                 </div>
 
                 <div class="feedback__button-container">
-                    <button class="feedback__button">Оставить отзыв</button>
+                    <form target="_blank"
+                        action="https://www.avito.ru/user/73bad8a5aaec6ef096241a4bc25becc7/profile/all?src=search_seller_info&sellerId=73bad8a5aaec6ef096241a4bc25becc7">
+                        <button class="feedback__button">Оставить
+                            отзыв</button>
+                    </form>
 
                     <div class="feedback__arrow-container">
-                        <div class="feedback__arrow">
+                        <button class="feedback__arrow">
                             <svg width="7.000000" height="13.999512" viewBox="0 0 7 13.9995" fill="none"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <defs />
@@ -157,9 +175,9 @@
                                     d="M5.82861 13.9995C5.53662 13.9995 5.2467 13.8725 5.04871 13.6265L0.220703 7.62646C-0.0773926 7.25549 -0.0733643 6.72552 0.231689 6.3595L5.23169 0.359497C5.58472 -0.0645142 6.2157 -0.12149 6.64062 0.231506C7.0647 0.584503 7.1217 1.21548 6.7677 1.6395L2.2926 7.0105L6.60767 12.3725C6.95361 12.8025 6.88562 13.4325 6.45471 13.7785C6.27063 13.9275 6.04871 13.9995 5.82861 13.9995Z"
                                     fill="#151515" fill-opacity="1.000000" fill-rule="evenodd" />
                             </svg>
-                        </div>
+                        </button>
 
-                        <div class="feedback__arrow">
+                        <button class="feedback__arrow">
                             <svg width="7.000000" height="13.999512" viewBox="0 0 7 13.9995" fill="none"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <defs />
@@ -167,11 +185,12 @@
                                     d="M1.17139 13.9995C1.46338 13.9995 1.7533 13.8725 1.95129 13.6265L6.7793 7.62646C7.07739 7.25549 7.07336 6.72552 6.76831 6.3595L1.76831 0.359497C1.41528 -0.0645142 0.784302 -0.12149 0.359375 0.231506C-0.0646973 0.584503 -0.121704 1.21548 0.2323 1.6395L4.7074 7.0105L0.392334 12.3725C0.0463867 12.8025 0.11438 13.4325 0.545288 13.7785C0.72937 13.9275 0.951294 13.9995 1.17139 13.9995Z"
                                     fill="#151515" fill-opacity="1.000000" fill-rule="evenodd" />
                             </svg>
-                        </div>
+                        </button>
                     </div>
                 </div>
             </section>
-            <section class="contacts">
+            <section class="contacts" id="contacts">
+
                 <div class="contacts__container">
                     <h1 class="contacts__title">Контакты</h1>
 
@@ -203,7 +222,7 @@
                                 </g>
                             </svg>
 
-                            <a class="contacts__item-link" href="mailto:maksim.timoshin.045@gmail.com"
+                            <a class="contacts__item-link" href="mailto:ooomobi01@mail.ru"
                                 title="Email">ooomobi01@mail.ru</a>
                         </li>
                         <li class="contacts__item">
@@ -281,15 +300,18 @@
                         <p class="social__text">Наши социальные сети</p>
                     </div>
                 </div>
-
-                <div style="position:relative;overflow:hidden;"><a
-                        href="https://yandex.ru/maps/1093/maykop/?utm_medium=mapframe&utm_source=maps"
-                        style="color:#eee;font-size:12px;position:absolute;top:0px;">Майкоп</a><a
-                        href="https://yandex.ru/maps/1093/maykop/?bookmarks%5Bpid%5D=work&bookmarks%5Buri%5D=ymapsbm1%3A%2F%2Fpin%3Fll%3D40.109508%252C44.624239&ll=40.110931%2C44.625299&utm_medium=mapframe&utm_source=maps&z=16"
-                        style="color:#eee;font-size:12px;position:absolute;top:14px;">Работа — Яндекс Карты</a><iframe
-                        src="https://yandex.ru/map-widget/v1/?bookmarks%5Bpid%5D=work&bookmarks%5Buri%5D=ymapsbm1%3A%2F%2Fpin%3Fll%3D40.109508%252C44.624239&ll=40.110931%2C44.625299&z=16"
-                        width="766" height="766" frameborder="1" allowfullscreen="true"
-                        style="position:relative;"></iframe></div>
+                <div>
+                    <h1 class=" map-title">Контакты</h1>
+                    <div class="contacts__map" style="position:relative;overflow:hidden; border-radius: 35px;"><a
+                            href="https://yandex.ru/maps/1093/maykop/?utm_medium=mapframe&utm_source=maps"
+                            style="color:#eee;font-size:12px;position:absolute;top:0px;">Майкоп</a><a
+                            href="https://yandex.ru/maps/1093/maykop/?bookmarks%5Bpid%5D=work&bookmarks%5Buri%5D=ymapsbm1%3A%2F%2Fpin%3Fll%3D40.109508%252C44.624239&ll=40.110931%2C44.625299&utm_medium=mapframe&utm_source=maps&z=16"
+                            style="color:#eee;font-size:12px;position:absolute;top:14px;">Работа —
+                            Яндекс Карты</a><iframe
+                            src="https://yandex.ru/map-widget/v1/?bookmarks%5Bpid%5D=work&bookmarks%5Buri%5D=ymapsbm1%3A%2F%2Fpin%3Fll%3D40.109508%252C44.624239&ll=40.110931%2C44.625299&z=16"
+                            width="766" height="766" frameborder="1" allowfullscreen="true"
+                            style="position:relative;"></iframe></div>
+                </div>
             </section>
         </div>
         </div>

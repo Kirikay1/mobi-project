@@ -1,12 +1,9 @@
-:root {
-    --text-color: #F1F1F1;
-    --element-color: #FF4C0D;
-    --button-color: #151515;
-}
+@import url("./style.css");
 
 .contacts {
     padding-top: 150px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -23,6 +20,9 @@
     line-height: 110%;
     letter-spacing: 0%;
     color: var(--text-color);
+}
+.map-title{
+    display: none;
 }
 
 .contacts__image {

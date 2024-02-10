@@ -32,10 +32,25 @@ padding-bottom: 90px;
     
 }
 .services__card-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
     border-radius: 25px;
     width: 555px;
     height: 400px;
 }
+.services__card-img img {
+    transition: 500ms;
+    transform: scale(1.1);
+    width: 580px;
+    height: 420px;
+    object-fit: cover;
+}
+.services__card:hover img{
+    transform: scale(1);
+}
+
 .services__card-title {
     font-family: Roboto;
 font-size: 20px;

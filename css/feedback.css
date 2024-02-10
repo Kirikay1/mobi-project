@@ -22,8 +22,10 @@
 }
 
 .feedback__container {
+    justify-content: center;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:40px;
 }
 
 .feedback__container-box {
@@ -72,6 +74,7 @@ hr {
 }
 
 .feedback__button {
+    transition:0.3s;
     padding: 15px 35px;
     color: var(--button-color);
     border-radius: 65px;
@@ -88,6 +91,7 @@ hr {
 }
 
 .feedback__arrow {
+    transition:0.3s;
     background-color: var(--text-color);
     border-radius: 100%;
     width: 54px;
@@ -95,4 +99,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.feedback__arrow:hover path{
+    fill:white;
 }

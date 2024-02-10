@@ -28,13 +28,15 @@ letter-spacing: 0%;
 max-width: 1100px;
 }
 .hero__slider {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8)), 
      url(../image/yellow_pricep.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 600px;
-    background-size: 100% auto;
     width:100%;
 }
 

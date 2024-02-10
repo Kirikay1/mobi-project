@@ -1,9 +1,4 @@
-:root {
-    --text-color: #F1F1F1;
-    --element-color: #FF4C0D;
-    --button-color: #151515;
-}
-
+@import url("./style.css");
 .about {
     padding-top: 150px;
     display: flex;
@@ -11,15 +6,20 @@
 }
 
 .about__img {
-    background-image: url(../image/medovoz.png);
-    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8)), 
+    url(../image/medovoz.png);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
     width: 1440px;
 }
 
 .about__img-content {
-    padding-top: 100px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;

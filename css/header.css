@@ -9,9 +9,6 @@ header {
     padding: 40px 0px ;
 }
 
-.header__container-logo {
-
-}
 .header__container-nav {
     display: flex;
     justify-content: center;
@@ -21,9 +18,7 @@ header {
     display: flex;
     gap: 40px;
 }
-.header-nav-item {
-    
-}
+
 .header__link {
     color: var(--text-color);
     font-family: Roboto;
@@ -31,7 +26,8 @@ font-size: 14px;
 font-weight: 400;
 line-height: 150%;
 }
-.header__button {
+.constructor__button {
+    cursor: pointer;
     padding: 15px 35px;
     color:var(--button-color);
     border-radius: 65px;
@@ -39,4 +35,29 @@ line-height: 150%;
 font-size: 16px;
 font-weight: 700;
 line-height: 150%;
+transition: 0.3s;
+}
+
+button:hover{
+    background-color: var( --element-color  );
+    color: var(--text-color);
+}
+
+
+a:after {
+    top: 4px;
+	display: block;
+	position: relative;
+	left: 50%;
+    transform: translateX(-50%);
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: var(--element-color); /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+
+a:hover:after,
+a:focus:after {
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
 }

@@ -26,11 +26,16 @@ line-height: 110%;
    
 }
 .galery__photos-item {
+    transition: 500ms;
+    transform: scale(1.02);
+    object-fit: cover;
+    overflow: hidden;
     border-radius: 40px;
     width: 550px;   
     height: 420px;
 }
 .galery__button {
+    transition: 0.3s ease-in-out;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,9 +46,17 @@ line-height: 110%;
     border-radius: 100%;
 }
 .galery__button-arrow{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     width: 40%;
     height: 40px;
+}
+.galery__button:hover{
+background-color: var(--element-color);
+}
+.galery__button:hover svg {
+  fill: white;
+
+}
+.galery__photos-item:hover{
+    transform: scale(1);
 }
