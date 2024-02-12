@@ -130,4 +130,22 @@ flex-direction: column;
     text-align: center;
 }
 
+.footer__container-copyright{
+    text-align: center;
+    padding-bottom: 10px;
+           }
+           .footer__container-contact{
+            text-align: center;
+           }
+           .footer{
+            padding-top: 0;
+           }
+           .contacts__container {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+
 }
