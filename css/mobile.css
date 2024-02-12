@@ -95,10 +95,25 @@ height: 45px;
             padding-top: 0;
         }
        .footer__container-copyright{
-text-align: center;
-padding-bottom: 10px;
+         text-align: center;
+        padding-bottom: 10px;
        }
        .footer__container-contact{
         text-align: center;
        }
+       .about__img-text{
+        text-align: center;
+       }
+       .feedback__container-box{
+        max-width: 290px;
+        height: fit-content;
+       }
+       .feedback__container-content{
+        padding: 20px;
+       }
+       .container {
+     
+        padding-left: 18px;
+        padding-right: 18px;
+    }
 }
