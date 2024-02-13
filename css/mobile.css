@@ -1,7 +1,7 @@
 @media (  width <= 640px ) {
 .header__container-logo{
-    width: 105px;
-height: 45px;
+    width: 50px;
+height: 50px;
 }
 .burger__button{
     width: 50px;

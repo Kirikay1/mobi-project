@@ -2,8 +2,8 @@
 <html lang="ru">
 
 <head>
-    <meta name="description" content="Наша компания как официальный производитель транспортных средств
-    производит работы по повторной маркировке ТС в случае повреждения или нечитаемости VIN - номера.">
+    <meta name="description"
+        content="Наша компания работы по повторной маркировке ТС в случае повреждения или не читаемости VIN - номера">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>МОБИ</title>
@@ -20,31 +20,42 @@
     <link rel="stylesheet" href="./css/galery.css">
     <link rel="stylesheet" href="./css/tablet.css">
     <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/hover.css">
     <link rel="icon" href="">
 </head>
 
 <body>
     <div class="burger__menu">
-        <nav class="header__container-nav">
+        <nav class="header__container-nav" id="header__container-nav">
             <ul class="header__nav-items">
                 <li class="header-nav-item"><a href="#hero" class="header__link burger-link">О компании</a></li>
                 <li class="header-nav-item"><a href="#servises" class="header__link burger-link">Услуги</a></li>
-                <li class="header-nav-item"><a href="#galery" class="header__link burger-link">Галерея</a></li>
+                <li class="header-nav-item"><a href="" class="header__link burger-link">Конструктор</a></li>
+                <li class="header-nav-item"><a href="./galery.html" class="header__link burger-link">Галерея</a></li>
                 <li class="header-nav-item"><a href="#feedback" class="header__link burger-link">Отзывы</a></li>
                 <li class="header-nav-item"><a href="#contacts" class="header__link burger-link">Контакты</a></li>
+
+
             </ul>
         </nav>
     </div>
+    <button class="galery__button-onTop">
+        <svg class="galery__button-arrow-onTop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+            <path fill="" d="M26.29 20.29 18 28.59V0h-2v28.59l-8.29-8.3-1.42 1.42 10 10a1 1 0 0 0 1.41 0l10-10z"
+                data-name="2-Arrow Down" />
+        </svg>
+    </button>
     <header class="header">
         <div class="header__container container">
-            <img src="./image/logo.svg" alt="Логотип" class="header__container-logo">
+            <a href="./index.html" class="header__logo-link"> <img src="./image/logo.svg" alt="Логотип"
+                    class="header__container-logo"></a>
             <nav class="header__container-nav">
                 <ul class="header__nav-items">
-                    <li class="header-nav-item"><a href="#hero" class="header__link">О компании</a></li>
-                    <li class="header-nav-item"><a href="#servises" class="header__link">Услуги</a></li>
-                    <li class="header-nav-item"><a href="#galery" class="header__link">Галерея</a></li>
-                    <li class="header-nav-item"><a href="#feedback" class="header__link">Отзывы</a></li>
-                    <li class="header-nav-item"><a href="#contacts" class="header__link">Контакты</a></li>
+                    <li class="header-nav-item"><a href="./index.html#hero" class="header__link">О компании</a></li>
+                    <li class="header-nav-item"><a href="./index.html#servises" class="header__link">Услуги</a></li>
+                    <li class="header-nav-item"><a href="./galery.html" class="header__link">Галерея</a></li>
+                    <li class="header-nav-item"><a href="./index.html#feedback" class="header__link">Отзывы</a></li>
+                    <li class="header-nav-item"><a href="./index.html#contacts" class="header__link">Контакты</a></li>
                 </ul>
             </nav>
 
@@ -113,13 +124,15 @@
                     <img src="./image/blue_pricep3.jpg" alt="фото прицепов" class="galery__photos-item">
                     <img src="./image/blue_pricep4.jpg" alt="фото прицепов" class="galery__photos-item">
                 </div>
-                <button class="galery__button">
-                    <svg class="galery__button-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
-                        <path fill=""
-                            d="M26.29 20.29 18 28.59V0h-2v28.59l-8.29-8.3-1.42 1.42 10 10a1 1 0 0 0 1.41 0l10-10z"
-                            data-name="2-Arrow Down" />
-                    </svg>
-                </button>
+                <form action="./galery.html#galery">
+                    <button class="galery__button">
+                        <svg class="galery__button-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                            <path fill=""
+                                d="M26.29 20.29 18 28.59V0h-2v28.59l-8.29-8.3-1.42 1.42 10 10a1 1 0 0 0 1.41 0l10-10z"
+                                data-name="2-Arrow Down" />
+                        </svg>
+                    </button>
+                </form>
             </section>
             <section class="about" id="about">
                 <div class="about__img">
@@ -346,6 +359,7 @@
         </div>
     </footer>
     <script defer src="./js/burger.js"></script>
+    <script src="./js/topButton.js"></script>
 </body>
 
 </html>

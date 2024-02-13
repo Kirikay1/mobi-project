@@ -8,7 +8,10 @@ header {
     justify-content: space-between;
     padding: 40px 0px ;
 }
-
+.header__container-logo{
+    width: 60px;
+    height: 60px;
+}
 .header__container-nav {
     display: flex;
     justify-content: center;
@@ -43,27 +46,8 @@ transition: 0.3s;
 .burger__button{
     display: none;
 }
+.header__logo-link::after{
+    display: none;
 
-button:hover{
-    background-color: var( --element-color  );
-    color: var(--text-color);
-}
-
-
-a:after {
-    top: 4px;
-	display: block;
-	position: relative;
-	left: 50%;
-    transform: translateX(-50%);
-	width: 0;/*задаём длинну линии до наведения курсора*/
-	height: 2px; /*задаём ширину линии*/
-	background-color: var(--element-color); /*задаём цвет линии*/
-	content: "";
-	transition: width 0.3s ease-out; /*задаём время анимации*/
-}
-
-a:hover:after,
-a:focus:after {
-	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+    
 }

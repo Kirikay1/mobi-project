@@ -1,0 +1,45 @@
+@media (  width >= 1000px ) {
+.feedback__arrow:hover path{
+    fill:white;
+}
+.galery__button:hover{
+    background-color: var(--element-color);
+    }
+    .galery__button:hover svg {
+      fill: white;
+    
+    }
+    .galery__photos-item:hover{
+        transform: scale(1);
+    }
+    button:hover{
+       
+        background-color: var( --element-color  );
+        color: var(--text-color);
+    }
+    
+    
+    a:after {
+        top: 4px;
+        display: block;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;/*задаём длинну линии до наведения курсора*/
+        height: 2px; /*задаём ширину линии*/
+        background-color: var(--element-color); /*задаём цвет линии*/
+        content: "";
+        transition: width 0.3s ease-out; /*задаём время анимации*/
+    }
+    
+    a:hover:after,
+    a:focus:after {
+        width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+    }
+    .services__card:hover img{
+        transform: scale(1);
+    }
+    .galery__button-onTop:hover svg {
+        fill: white;
+      }
+    }

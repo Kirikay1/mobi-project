@@ -49,9 +49,7 @@ padding-bottom: 90px;
     height: 420px;
     object-fit: cover;
 }
-.services__card:hover img{
-    transform: scale(1);
-}
+
 
 .services__card-title {
     font-family: Roboto;
