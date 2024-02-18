@@ -1,36 +1,41 @@
 @import "./style.css";
 
-.services{
+.services {
     padding-top: 150px;
 }
+
 .services__title {
     color: var(--text-color);
     text-align: center;
     font-family: Roboto;
-font-size: 45px;
-font-weight: 500;
-line-height: 110%;
-padding-bottom: 90px;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 110%;
+    padding-bottom: 90px;
 }
+
 .services__cards {
     display: flex;
     flex-wrap: wrap;
-  justify-content: center;
+    justify-content: center;
     flex-direction: row;
     gap: 80px;
 }
+
 .services__card {
+    cursor: pointer;
     border: 2px solid white;
     border-radius: 25px;
     color: var(--text-color);
     overflow: hidden;
-    
+
     display: flex;
     flex-direction: column;
     gap: 15px;
     width: 550px;
-    
+
 }
+
 .services__card-img {
     background-position: center;
     background-size: cover;
@@ -42,6 +47,7 @@ padding-bottom: 90px;
     width: 555px;
     height: 400px;
 }
+
 .services__card-img img {
     transition: 500ms;
     transform: scale(1.1);
@@ -53,25 +59,26 @@ padding-bottom: 90px;
 
 .services__card-title {
     font-family: Roboto;
-font-size: 20px;
-font-weight: 400;
-line-height: 120%;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
     width: fit-content;
     padding-left: 10px;
 }
+
 .services__card-title::after {
     content: "";
     display: block;
     width: 75%;
     padding-top: 15px;
     border-bottom: 3px solid #FF4C0D;
-   }
-   
+}
+
 .services__card-text {
     font-family: Roboto;
-font-size: 14px;
-font-weight: 400;
-line-height: 150%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
     padding-left: 10px;
     width: 400px;
     padding-bottom: 15px;

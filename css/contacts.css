@@ -21,7 +21,8 @@
     letter-spacing: 0%;
     color: var(--text-color);
 }
-.map-title{
+
+.map-title {
     display: none;
 }
 

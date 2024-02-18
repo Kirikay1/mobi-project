@@ -7,33 +7,37 @@
     align-items: center;
 
 }
+
 .galery__title {
     font-family: Roboto;
-font-size: 45px;
-font-weight: 500;
-line-height: 110%;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 110%;
     padding-bottom: 90px;
     padding-top: 150px;
     color: var(--text-color);
     text-align: center;
 }
+
 .galery__photos {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     place-items: center;
     padding-bottom: 50px;
-   
+
 }
+
 .galery__photos-item {
     transition: 500ms;
     transform: scale(1.02);
     object-fit: cover;
     overflow: hidden;
     border-radius: 40px;
-    width: 550px;   
+    width: 550px;
     height: 420px;
 }
+
 .galery__button {
     transition: 0.3s ease-in-out;
     display: flex;
@@ -45,7 +49,8 @@ line-height: 110%;
     height: 60px;
     border-radius: 100%;
 }
-.galery__button-arrow{
+
+.galery__button-arrow {
 
     width: 40%;
     height: 40px;

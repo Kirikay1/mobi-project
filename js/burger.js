@@ -3,12 +3,12 @@ const burgerMenu = document.querySelector(".burger__menu");
 const burgerLinks = document.querySelector("#header__container-nav");
 const burgerLinksItem = document.querySelector(".header__nav-items");
 
-console.log(burgerLinks);
-burgerButton.addEventListener('click', () =>{
+
+burgerButton.addEventListener('click', () => {
     document.body.style = "overflow: hidden";
     burgerLinks.style = "display: flex";
     burgerLinksItem.style = "flex-direction: column";
- burgerMenu.style = "left: 0%";
+    burgerMenu.style = "left: 0%";
 });
 
 burgerMenu.addEventListener('click', () => {

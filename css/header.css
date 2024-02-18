@@ -3,23 +3,28 @@
 header {
     background-color: #000000;
 }
+
 .header__container {
     display: flex;
     justify-content: space-between;
-    padding: 20px 0px ;
+    padding: 20px 0px;
 }
-.header__container-logo{
+
+.header__container-logo {
     width: 60px;
     height: 60px;
 }
+
 .header__container-nav {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.header-nav-item{
+
+.header-nav-item {
     text-align: center;
 }
+
 .header__nav-items {
     display: flex;
     gap: 40px;
@@ -28,26 +33,29 @@ header {
 .header__link {
     color: var(--text-color);
     font-family: Roboto;
-font-size: 14px;
-font-weight: 400;
-line-height: 150%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
 }
+
 .constructor__button {
     cursor: pointer;
     padding: 15px 35px;
-    color:var(--button-color);
+    color: var(--button-color);
     border-radius: 65px;
     font-family: Roboto;
-font-size: 16px;
-font-weight: 700;
-line-height: 150%;
-transition: 0.3s;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    transition: 0.3s;
 }
-.burger__button{
+
+.burger__button {
     display: none;
 }
-.header__logo-link::after{
+
+.header__logo-link::after {
     display: none;
 
-    
+
 }

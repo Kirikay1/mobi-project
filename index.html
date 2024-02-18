@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="./css/tablet.css">
     <link rel="stylesheet" href="./css/mobile.css">
     <link rel="stylesheet" href="./css/hover.css">
-    <link rel="icon" href="">
+    <link rel="icon" href="./image/logo.svg">
 </head>
 
 <body>
@@ -86,14 +86,20 @@
             <section class="services" id="servises">
                 <h1 class="services__title">Услуги компании</h1>
                 <div class="services__cards">
-                    <div class="services__card">
+                    <div class="services__modal">
+                        <div class="services__modal-card">
+                            <span class="modal__card-title"></span>
+                            <span class="modal__card-text">Модальное окно</span>
+                        </div>
+                    </div>
+                    <div class="services__card" id="btn1">
                         <div class="services__card-img">
                             <img src="./image/gray_pricep.jpg" alt="Вин маркировка">
                         </div>
                         <h3 class="services__card-title">Прицепы</h3>
                         <p class="services__card-text">Компания ООО "МОБИ" (г.Майкоп), Производит прицепы на заказ.</p>
                     </div>
-                    <div class="services__card">
+                    <div class="services__card" id="btn2">
                         <div class="services__card-img">
                             <img src="./image/VIN.jpg" alt="Вин маркировка">
                         </div>
@@ -104,7 +110,7 @@
                             автопроизводителем в ЮФО, начавшая проводить работы по повторной маркировке ТС.</p>
                     </div>
 
-                    <div class="services__card">
+                    <div class="services__card" id="btn3">
                         <div class="services__card-img">
                             <img src="./image/zapchasti.png" alt="Вин маркировка">
                         </div>
@@ -358,6 +364,7 @@
             </div>
         </div>
     </footer>
+    <script defer src="./js/modal.js"></script>
     <script defer src="./js/burger.js"></script>
     <script src="./js/topButton.js"></script>
 </body>

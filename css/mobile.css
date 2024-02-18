@@ -1,121 +1,150 @@
-@media (  width <= 640px ) {
-    .header__container {  
+@media (width <=640px) {
+    .header__container {
         padding: 20px 0;
     }
-.header__container-logo{
-    width: 40px;
-height: 40px;
-}
-.burger__button{
-    width: 50px;
-    height: 50px;
-}
-.hero__logo{
-    gap:20px;
-    padding: 50px 0;
-}
-.hero__logo-title{
-    font-size: 26px;
-}
-.hero__logo-subtitle{
-    font-size: 12px;
-}
-.hero__slider{
-    height: 228px;
-}
-.hero__slider-container{
-    padding: 25px 40px;
-}
 
-.hero__slider-title {
-    font-size: 26px;
-}
-.hero__slider-text {
-    font-size: 12px;
-}
-.services{
-    padding-top: 40px;
-}
-.services__title{
-    font-size: 26px;
-    padding-bottom: 30px;
-}
-.services__card {
-   width: 280px;
-   height: fit-content;
-}
-.services__card-img {
-    width: 280px;
-    height: 200px;
-}
-.services__card-title {
-    font-size: 16px;
-}
-.services__card-text{
-    font-size: 12px;
-    width: 260px;
-}
-.services__card-img img {
-    width: 315px;
-    height: 220px;
+    .header__container-logo {
+        width: 40px;
+        height: 40px;
+    }
 
-}
-.galery__title{
-    padding-top: 40px;
-    padding-bottom: 30px;
-    font-size: 26px;
-}
-.galery__photos-item{
-    height: 200px;
-    width: 280px;
+    .burger__button {
+        width: 50px;
+        height: 50px;
     }
-    
-    .about__img{
-        height: 300px;  
+
+    .hero__logo {
+        gap: 20px;
+        padding: 50px 0;
     }
-    .about__img-title{
+
+    .hero__logo-title {
         font-size: 26px;
     }
-    .about__img-text{
+
+    .hero__logo-subtitle {
         font-size: 12px;
     }
-    .feedback{
+
+    .hero__slider {
+        height: 228px;
+    }
+
+    .hero__slider-container {
+        padding: 25px 40px;
+    }
+
+    .hero__slider-title {
+        font-size: 26px;
+    }
+
+    .hero__slider-text {
+        font-size: 12px;
+    }
+
+    .services {
         padding-top: 40px;
     }
-    .feedback__title{
+
+    .services__title {
         font-size: 26px;
         padding-bottom: 30px;
-        }
+    }
 
-        .contacts__map{
-            width: 280px;
+    .services__card {
+        width: 280px;
+        height: fit-content;
+    }
+
+    .services__card-img {
+        width: 280px;
+        height: 200px;
+    }
+
+    .services__card-title {
+        font-size: 16px;
+    }
+
+    .services__card-text {
+        font-size: 12px;
+        width: 260px;
+    }
+
+    .services__card-img img {
+        width: 315px;
+        height: 220px;
+
+    }
+
+    .galery__title {
+        padding-top: 40px;
+        padding-bottom: 30px;
+        font-size: 26px;
+    }
+
+    .galery__photos-item {
+        height: 200px;
+        width: 280px;
+    }
+
+    .about__img {
+        height: 300px;
+    }
+
+    .about__img-title {
+        font-size: 26px;
+    }
+
+    .about__img-text {
+        font-size: 12px;
+    }
+
+    .feedback {
+        padding-top: 40px;
+    }
+
+    .feedback__title {
+        font-size: 26px;
+        padding-bottom: 30px;
+    }
+
+    .contacts__map {
+        width: 280px;
         height: 260px;
-        }
-        .footer{
-            padding-top: 40px;
-        }
-        .footer__container{
-            padding-top: 0;
-        }
-       .footer__container-copyright{
-         text-align: center;
+    }
+
+    .footer {
+        padding-top: 40px;
+    }
+
+    .footer__container {
+        padding-top: 0;
+    }
+
+    .footer__container-copyright {
+        text-align: center;
         padding-bottom: 10px;
-       }
-       .footer__container-contact{
+    }
+
+    .footer__container-contact {
         text-align: center;
-       }
-       .about__img-text{
+    }
+
+    .about__img-text {
         text-align: center;
-       }
-       .feedback__container-box{
+    }
+
+    .feedback__container-box {
         max-width: 290px;
         height: fit-content;
-       }
-       .feedback__container-content{
+    }
+
+    .feedback__container-content {
         padding: 20px;
-       }
-       .container {
-     
+    }
+
+    .container {
+
         padding-left: 18px;
         padding-right: 18px;
     }
