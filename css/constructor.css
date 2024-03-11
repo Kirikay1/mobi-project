@@ -1,0 +1,128 @@
+.constructor {
+    min-height: 80vh;
+}
+
+.constructor__title {
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 110%;
+    padding-bottom: 90px;
+    padding-top: 150px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.constructor__subtitle {
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: var(--text-color);
+}
+
+.constructor__cards {
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.constructor__card {
+
+    transition: 0.3s;
+    padding: 20px;
+    width: 370px;
+    border: 1px solid #fafafa;
+    border-radius: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.constructor__card-img {
+    border-radius: 20px;
+
+    height: 150px;
+
+}
+
+.constructor__card-title {
+    width: fit-content;
+    color: var(--text-color);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.constructor__card-title:after {
+    padding-top: 10px;
+    content: "";
+    display: block;
+    width: 150%;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #FF4C0D;
+
+}
+
+.constructor__card-parametr {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.parametr__name {
+    color: var(--text-color);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -1%;
+}
+
+
+.constructor__description {
+    width: 320px;
+    text-overflow: ellipsis;
+    color: var(--text-color);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -1%;
+}
+
+.constructor__card:hover {
+
+    width: 390px;
+    border: 2px solid var(--element-color);
+
+}
+
+.constructor__button-active {
+    background-color: var(--element-color);
+    color: var(--text-color);
+    cursor: pointer;
+    padding: 15px 35px;
+    border-radius: 65px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    transition: 0.3s;
+}
+
+@media (width <=1200px) {
+    .constructor__button-active {
+        display: none;
+    }
+}

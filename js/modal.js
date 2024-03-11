@@ -4,6 +4,7 @@ const modalText = document.querySelector('.modal__card-text');
 const title = document.querySelector('.modal__card-title');
 const card = document.querySelector('.services__modal-card');
 console.log(modal);
+
 let text = `Процедура повторной маркировки транспортного средства:
 <ol>
 <li>Получение в ГИБДД направления на повторную маркировку ТС и установка сотрудниками ГИБДД пломб на ТС.</li>
@@ -16,7 +17,8 @@ let text = `Процедура повторной маркировки тран�
 <li>Оформление Свидетельства и бухгалтерских документов.</li>
 </ol>`
 
-button.forEach(function (button) {
+button.forEach(function (button, index) {
+    button.id = 'btn' + (index + 1);
     button.addEventListener('click', () => {
         document.body.style = "overflow: hidden"
         modal.style = "display:flex"
@@ -35,6 +37,10 @@ button.forEach(function (button) {
                 title.textContent = "";
                 modalText.innerHTML = "";
 
+                break;
+            case 'btn3':
+                title.textContent = "";
+                modalText.innerHTML = "";
 
 
         }

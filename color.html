@@ -1,24 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
-    <meta name="description"
-        content="Наша компания работы по повторной маркировке ТС в случае повреждения или не читаемости VIN - номера">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>МОБИ</title>
+    <title>Конструктор</title>
+    <link rel="stylesheet" href="./css/constructor.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/feedback.css">
-    <link rel="stylesheet" href="css/contacts.css">
     <link rel="stylesheet" href="./css/hero.css">
-    <link rel="stylesheet" href="./css/services.css">
-    <link rel="stylesheet" href="./css/galery.css">
     <link rel="stylesheet" href="./css/tablet.css">
     <link rel="stylesheet" href="./css/mobile.css">
     <link rel="stylesheet" href="./css/hover.css">
@@ -62,7 +55,7 @@
             </nav>
 
             <form action="./constructor.html">
-                <button aria-label="Конструктор" class="constructor__button-active">Конструктор</button>
+                <button aria-label="Конструктор" class=" constructor__button-active ">Конструктор</button>
             </form>
             <button aria-label="Меню" class="burger__button">
                 <span class="burger__button-span"></span>
@@ -73,13 +66,45 @@
     </header>
     <main class="main">
         <div class="container">
-            <section class="galery" id="galery">
-                <h1 class="galery__title">Наши прицепы</h1>
-                <div class="galery__photos">
-                    <img src="./image/blue_pricep.jpg" alt="фото прицепов" class="galery__photos-item">
-                    <img src="./image/blue_pricep2.jpg" alt="фото прицепов" class="galery__photos-item">
-                    <img src="./image/blue_pricep3.jpg" alt="фото прицепов" class="galery__photos-item">
-                    <img src="./image/blue_pricep4.jpg" alt="фото прицепов" class="galery__photos-item">
+            <section class="constructor" id="galery">
+                <h1 class="constructor__title">Конструктор</h1>
+                <h2 class="constructor__subtitle">Выберите цвет:</h2>
+                <div class="constructor__cards">
+                    <div class="constructor__card">
+                        <h3 class="constructor__card-title">Синий</h3>
+                        <img src="./image/medovoz.png" alt="" class="constructor__card-img">
+                        <div class="constructor__card-parametr">
+                            <span class="parametr__name">Грузоподъемность:</span>
+                            <span class="parametr__name">до 750кг</span>
+                        </div>
+                        <p class="constructor__description">Назначение прицепа — перевозка различных грузов, а также
+                            использование в качестве передвижной пасеки. Низкие борта делают удобными
+                            погрузку-разгрузку.</p>
+                    </div>
+                    <div class="constructor__card">
+                        <h3 class="constructor__card-title">Серый</h3>
+                        <img src="./image/medovoz.png" alt="" class="constructor__card-img">
+                        <div class="constructor__card-parametr">
+                            <span class="parametr__name">Грузоподъемность:</span>
+                            <span class="parametr__name">до 750кг</span>
+                        </div>
+                        <p class="constructor__description">Назначение прицепа — перевозка различных грузов, а также
+                            использование в качестве передвижной пасеки. Низкие борта делают удобными
+                            погрузку-разгрузку.</p>
+                    </div>
+                    <div class="constructor__card">
+                        <h3 class="constructor__card-title">Желтый</h3>
+                        <img src="./image/medovoz.png" alt="" class="constructor__card-img">
+                        <div class="constructor__card-parametr">
+                            <span class="parametr__name">Грузоподъемность:</span>
+                            <span class="parametr__name">до 750кг</span>
+                        </div>
+                        <p class="constructor__description">Назначение прицепа — перевозка различных грузов, а также
+                            использование в качеств. Низкие борта делают удобными
+                            погрузку-разгрузку d labore molestias, nihil obcaecati assumenda
+                            cupiditate, ipsum eaque a voluptatibus laudantium quo itaque sed earum neque sapiente.
+                            Laborum minus cumque lorem odio.</p>
+                    </div>
                 </div>
 
             </section>
@@ -101,6 +126,7 @@
     </footer>
     <script defer src="./js/burger.js"></script>
     <script src="./js/topButton.js"></script>
+    <script src="./js/constructor.js"></script>
 </body>
 
 </html>
