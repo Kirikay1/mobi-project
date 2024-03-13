@@ -1,6 +1,7 @@
 const selectedItem = document.querySelectorAll('.constructor__card');
 const title = document.querySelector('.constructor__card-title');
 
+
 selectedItem.forEach((item, index) => {
     const itemId = index + 1;
     item.id = 'btn' + (itemId);

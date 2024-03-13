@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./css/tablet.css">
     <link rel="stylesheet" href="./css/mobile.css">
     <link rel="stylesheet" href="./css/hover.css">
+    <link rel="stylesheet" href="./css/form.css">
     <link rel="icon" href="./image/logo.svg">
 </head>
 
@@ -40,7 +41,7 @@
                 data-name="2-Arrow Down" />
         </svg>
     </button>
-    <header class="header">
+    <header class="header header__form">
         <div class="header__container container">
             <a href="./index.html" class="header__logo-link"> <img src="./image/logo.svg" alt="Логотип"
                     class="header__container-logo"></a>
@@ -56,6 +57,7 @@
 
 
             <button aria-label="Конструктор" class="constructor__button">Конструктор</button>
+
             <button aria-label="Меню" class="burger__button">
                 <span class="burger__button-span"></span>
                 <span class="burger__button-span"></span>
@@ -63,13 +65,61 @@
             </button>
         </div>
     </header>
-    <main class="main">
-        <div class="container">
+    <main class="main main__form">
+        <div class="container container__form ">
+            <section class="form">
+                <div class="leftside__hero">
+                    <img src="./image/logo.svg" alt="Логотип" class="form__container-logo">
+                </div>
+
+                <form class="form__content" action="">
+                    <h1 class="form__title">
+                        Ваш прицеп:
+                    </h1>
+                    <div class="form__content-container">
+                        <div class="form__item">
+                            <label for="frame" class="item__label">Рама</label>
+                            <input type="text" id="frame" name="frame" disabled class="item__text">
+                        </div>
+                        <div class="form__item">
+                            <label for="brake" class="item__label">Тормоза</label>
+                            <input type="text" id="brake" title="" name="brake" disabled class="item__text">
+                        </div>
+                        <div class="form__item">
+                            <label for="color" class="item__label">Цвет</label>
+                            <input type="text" id="color" name="color" disabled class="item__text">
+                        </div>
+                        <div class="form__item">
+                            <label for="fender" class="item__label">Крылья</label>
+                            <input type="text" id="fender" name="fender" disabled class="item__text">
+                        </div>
+                        <div class="form__item">
+                            <label for="suspenstion" class="item__label">Подвеска</label>
+                            <input type="text" id="suspension" name="suspension" disabled class="item__text">
+                        </div>
+                        <div class="form__item">
+                            <label for="wheels" class="item__label">Колеса</label>
+                            <input type="text" id="wheels" name="wheels" disabled class="item__text">
+                        </div>
+                    </div>
+                    <h2 class="form__subtitle">Контакты для связи:</h2>
+                    <div class="form__contacts">
+                        <div class="form__contacts-item">
+                            <label for="phone" class="form__contacts-label">Ваш номер телефона</label>
+                            <input type="number" id="number" name="number" class="form__contacts-input"></input>
+                        </div>
+                        <div class="form__contacts-item">
+                            <label for="name" class="form__contacts-label">Как к вам обращаться</label>
+                            <input type="text" id="name" name="name" class="form__contacts-input"></input>
+                        </div>
+                    </div>
+                    <button class="form__content-button disabled">Оставить заявку</button>
+                </form>
 
             </section>
         </div>
     </main>
-    <footer class="footer">
+    <footer class="footer ">
         <div class="container">
             <div class="footer__container">
                 <div class="footer__container-copyright">
@@ -85,7 +135,7 @@
     </footer>
     <script defer src="./js/burger.js"></script>
     <script src="./js/topButton.js"></script>
-    <script src="./js/constructor.js"></script>
+    <script src="./js/form.js"></script>
 </body>
 
 </html>
