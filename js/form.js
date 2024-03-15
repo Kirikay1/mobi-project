@@ -10,7 +10,7 @@ const surname = document.getElementById('name');
 const phone = document.getElementById('number');
 
 
-
+surname.value = '121212';
 brake.value = localStorage.getItem('brake');
 wheels.value = localStorage.getItem('wheels');
 color.value = localStorage.getItem('color');
@@ -22,6 +22,10 @@ function buttonChecked() {
     if (surname.value !== '' && phone.value !== '') {
         submitButton.disabled = false;
         submitButton.classList.remove('disabled');
+        submitButton.addEventListener('click', () => {
+            alert('Thank you');
+
+        })
     }
     else if (surname.value === '' || phone.value === '') {
 
@@ -32,7 +36,6 @@ function buttonChecked() {
 
 
 surname.addEventListener('change', () => {
-
     buttonChecked();
 
 });
@@ -40,6 +43,3 @@ phone.addEventListener('change', () => {
     buttonChecked();
 });
 
-submitButton.addEventListener('click', () => {
-    alert('Thank you');
-})
